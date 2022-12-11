@@ -1113,7 +1113,12 @@ body.dark-theme{
     .container{
       margin-inline: auto;
     }
+    .footer__content{
+      position: relative;
+      column-gap: 4rem;
+    }
 }
+
 @media screen and (min-width: 1280px) {
   .home__leaf-1{
     width: 150px;
@@ -1145,6 +1150,9 @@ body.dark-theme{
     margin: 0 auto ;
     width: 150px;
   }  
-
+  .footer__content{
+    position: relative;
+    column-gap: 4rem;
+  }
   
 }
